@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {
+
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+  }
+  
+  body {
+  
+      padding: 0px;
+      margin: 0px;
+      background: white;
+  
+  }
+  
+  .navbar.scrolled{
+  
+    background-color: #7fb4be;
+    color: black;
+    transition: all 350ms linear;
+  }
+  
+  .navbar {
+  
+      background: white;
+      color: #011f4b;
+      position: fixed;
+      height: 10%;
+      width: 100%;
+  
+      z-index: 13;
+  
+      transition: all 350ms linear;
+  }
+  .navbara.scrolled2{
+  
+    color: black;
+    transition: color 350ms linear;
+  }
+  .navbara {
+  
+      text-decoration: none;
+      color: azure;
+      transition: color 350ms linear;
+  
+  }
+
+  .namea {
+
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-decoration: none;
+    font-family: "nunito";
+    padding-left: 7%;
+    font-size: 20px;
+    color: #011f4b;
+    
+
+}
+
+.namea.scrolled3{
+
+  color: black;
+  transition: color 350ms linear;
+}
+
+#options li{
+
+    list-style: none;
+    display: inline;
+    color: #242845;
+    font-family: "nunito";
+    margin-right: 2.5%;
+    font-size: 18px;
+    
+}
+
+#options ul {
+
+    position: relative;
+    left: 45%;
+    top: 20%;
+
+}
+
+#options li:hover{
+
+    color: blue;
+
+}
+#options{
+
+    width: 60%; 
+    height: 100%; 
+
+    float: right;
+}
+
+.intro-container {
+
+    width: 100%;
+    height: 500px;
+
+    position: relative;
+    top: 50px;
+    
+
+}
+
+.quote {
+
+    
+    position: relative;
+    width: 40%;
+    height: 150px;
+
+    top: 110px;
+    left: 7%;
+}
+
+.quote h2 {
+
+    font-family: "nunito";
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 900;
+    color: #011f4b;
+}
+
+.search {
+
+    position: relative;
+    top: 100px;
+    width: 40%;
+    height: 50px;
+    left: 7%;
+}
+
+.search #search{
+
+    width: 65%;
+    height: 100%;
+
+    margin-right: 10px;
+    border: 2px solid #011f4b;
+    border-radius: 5px;
+}
+
+.search #search ::placeholder {
+    color: #011f4b;
+}
+
+.search button {
+
+    height: 100%;
+    width: 8%;
+
+    border-radius: 50%; 
+    color: #011f4b;
+    background: azure;
+    border: 2px solid #011f4b;
+    font-size: 20px;
+
+    position: relative;
+    top: 3px;
+}
+
+#slider {
+    width: 720px;
+    height: 350px;
+    overflow: hidden;
+
+    position: relative;
+    left: 50%;
+    top: -20%;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+.slide1 {
+    background-image: url("https://tns.world/wp-content/uploads/2017/08/National-University-of-Science-Technology-NUST.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.slide2 {
+    background-image: url("https://international.lums.edu.pk/sites/all/themes/international/images/ylums.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.slide3 {
+    background-image: url("https://www.vstudents.org/education/wp-content/uploads/2018/05/Comsats-ISB.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.slide4 {
+    background-image: url("https://www.vstudents.org/education/wp-content/uploads/2015/04/GIKI-Swabi-University-Admissions-2018.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.slide5 {
+    background-image: url("http://3.bp.blogspot.com/_G4BonFTuQaE/TBkLSbhu1kI/AAAAAAAAAcY/j7FcGcmAda0/s1600/fast+uni.jpg  ");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#rankings {
+
+    width: 100%;
+    height: 400px;
+
+    position: relative;
+    top: 200px;
+}
+
+#rankings h2 {
+
+    font-family: "nunito";
+    font-size: 35px;
+    font-weight: 900;
+    color: #011f4b;
+
+    position: relative;
+    left: 7%;
+        
+}
+
+#rank-container {
+
+    width: 86%;
+
+    position: relative;
+    left: 7%;
+}
+
+#rankings h3 {
+    position: relative;
+    left: 5%;
+    top: -2%;
+}
+.rank {
+
+    border: 3px solid #7fb4be;
+
+    position: relative;
+    float: left;
+
+    width: 17%;
+    height: 250px;
+    margin-right: 2%;
+
+    font-family: "nunito";
+    font-size: 18px;
+    font-weight: 900;
+    color: #011f4b;    
+    
+}
+
+#rank1, #rank2, #rank3, #rank4, #rank5 {
+
+    width: 100%;
+    height: 80%;
+    
+}
+
+#rank1 {
+    background-image: url("https://c.tribune.com.pk/2012/11/465257-NUSTlogonationaluniversityofsciencetechnologylogo-1352857525.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 80%;
+
+    position: relative;
+    top: 20px;
+}
+
+#rank2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFi3ouzieHgv6qoJarPgs2_V4eXicCj9_ohiFXHFC9W7aKn-J");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: relative;
+    left: 20px; 
+    top: 10px;
+}
+
+#rank3 {
+    background-image: url("https://pakeducareer.com/wp-content/uploads/2018/02/GIKI-logo-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: relative;
+    left: 14px;
+    top: 10px;
+}
+
+#rank4 {
+    background-image: url("https://www.phoneworld.com.pk/wp-content/uploads/2018/07/Lums.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: relative;
+    top: 40px;
+}
+
+#rank5 {
+
+    background-image: url("http://admin.ilmipoint.com/UploadedContent/Images/News/636059890378280543.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: relative;
+    top: 60px;    
+}
+
+#about {
+
+    width: 100%;
+    height: 40%;
+
+    position: relative;
+    top: 250px;
+}
+
+#about h2 {
+
+    font-family: "nunito";
+    font-size: 35px;
+    font-weight: 900;
+    color: #011f4b;
+
+    position: relative;
+    left: 7%;
+    
+}
+
+#content{
+
+    font-family: "nunito";
+    font-size: 20px;
+    color: #011f4b;
+    line-height: 45px;
+
+    position: relative;
+    left: 10%;
+
+}
+
+#features {
+
+    font-family: "nunito";
+    font-size: 20px;
+    color: #011f4b;
+    line-height: 45px;
+
+    position: relative;
+    left: 10%;
+}
+
+#features h3 {
+
+    font-family: "nunito";
+    font-size: 24px;
+    color: #011f4b;
+    font-weight: 900;
+    line-height: 45px;
+
+    position: relative;    
+
+}
+
+#features li {
+
+    display: inline;
+    border: 1px solid #7fb4be;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 55px;
+    transition: all 1s;
+
+}
+
+#features li:hover {
+
+    background-color: #7fb4be;
+    
+}
